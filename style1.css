@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.summary,
+.cart,
+.shipping {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.summary h2,
+.cart h2,
+.shipping h2 {
+    background-color: #ddd;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.summary-details .detail-row,
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.summary-details .detail-row.total {
+    font-weight: bold;
+    color: #d21111;
+}
+
+.summary-details .detail-row .free {
+    color: green;
+    font-weight: bold;
+}
+
+.cart-item img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.cart-item {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+.item-details .price {
+    font-weight: bold;
+    color: #d21111;
+}
+
+.edit-cart {
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #d21111;
+    font-weight: bold;
+}
+
+.shipping p {
+    margin: 10px 0;
+}
+
+.shipping a {
+    text-decoration: none;
+    color: #d21111;
+    font-weight: bold;
+}
